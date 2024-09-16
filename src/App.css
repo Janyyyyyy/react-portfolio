@@ -1,0 +1,50 @@
+header {
+  text-align: center;
+}
+
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.about-me {
+  background-color: transparent;
+  text-align: center;
+  margin: 20px;
+  color: #000000; /* changed to black */
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+  background-color: #f7f7f7; /* added a light gray background */
+  padding: 20px;
+  border: 1px solid #ddd; /* added a subtle border */
+  border-radius: 10px; /* added a slight curve to the corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* added a subtle shadow */
+  color: #000000; /* kept the text color as black */
+  text-align: center;
+}
+
+.contact-me {
+  text-align: center;
+  margin: 20px;
+  color: #000000; /* changed to black */
+}
+
+.contact-me textarea {
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  resize: vertical;
+  color: #000000; /* changed to black */
+}
+
